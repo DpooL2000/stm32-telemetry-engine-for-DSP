@@ -12,7 +12,7 @@ from PySide6.QtCore import Qt, QTimer
 from ui.styles import MASTER_QSS, setup_dark_plot
 from ui.title_bar import CustomTitleBar
 from core.serial_worker import SerialLink
-from core.dsp import get_top_peaks
+from core.dsp_anlyzer import get_top_peaks
 
 class BetaflightTuner(QMainWindow):
     def __init__(self):
