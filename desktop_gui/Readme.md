@@ -2,6 +2,8 @@
 
 A real-time, multi-threaded PySide6 dashboard designed to interface with the STM32G431 DSP testbed. This application provides live attitude visualization, interactive filter tuning, and real-time Fast Fourier Transform (FFT) analysis to detect and eliminate mechanical resonance.
 
+https://github.com/user-attachments/assets/3c3b6ea9-1714-42ee-948a-6c1bfa7ee5dc
+
 ## Key Features
 
 * **Real-Time FFT Analysis:** Processes rolling 1000-sample buffers to calculate and identify the top 3 resonant frequencies on the X, Y, and Z axes, allowing for surgical dynamic notch placement.
