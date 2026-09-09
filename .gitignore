@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.venv/
+env/
+venv/
+
+# C++ / PlatformIO / STM32
+.pio/
+.vscode/
+*.elf
+*.bin
+*.hex
