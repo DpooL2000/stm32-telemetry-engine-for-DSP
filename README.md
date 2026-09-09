@@ -2,7 +2,7 @@
 
 An ultra-low latency hardware testbed and real-time telemetry dashboard for evaluating digital signal processing (DSP) filter pipelines on an STM32G431 (ARM Cortex-M4F) microcontroller paired with an MPU6050 IMU on a single-axis motor arm setup.
 
-## 🚀 Key Features
+## Key Features
 
 * **Hardware CORDIC Acceleration:** Utilizes the STM32G431 hardware CORDIC co-processor for single-cycle trigonometric calculations during bi-quad filter coefficient synthesis.
 * **Betaflight Signal Chain:** Full C++ implementation of PT1, PT2 (cascaded), and Biquad Butterworth low-pass filters alongside a dynamic biquad notch filter.
